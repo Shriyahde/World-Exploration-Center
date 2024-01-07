@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Nunito&display=swap');
+
+body {
+    margin-top: 70px!important;
+    margin: 0;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+body * {
+    text-align: center;
+}
+
+#header {
+    height: 70px;
+    z-index: 1;
+
+    background-color: white;
+    box-shadow: 0px 5px 5px -4px darkgray;
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 25px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: rgb(0, 112, 241);
+    font-family: 'Montserrat';
+
+    margin: 15px;
+
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-link:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+#logo {
+    font-size: 30px;
+    font-family: 'Rubik Doodle Shadow';
+
+    color: rgb(14, 206, 123);
+}
+
+#logo-link {
+    text-decoration: none;
+    color: black;
+}

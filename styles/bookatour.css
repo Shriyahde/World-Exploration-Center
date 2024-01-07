@@ -1,0 +1,56 @@
+h1 {
+    font-size: 4em;
+    font-family: 'Rubik Doodle Shadow';
+}
+
+.label-input-div {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-input-div label {
+    margin-right: 10px;
+}
+
+.label-input-div input {
+    width: 20vw;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+    outline: none;
+    border: 2px solid rgb(0, 112, 241);
+}
+
+.label-input-div input:focus {
+    background-color: rgb(0, 112, 241);
+    color: white;
+}
+
+#submit-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    height: 50px;
+    width: 70px;
+
+    background-color: rgb(0, 112, 241);
+    color: white;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#submit-button:hover {
+    background-color: rgb(0, 208, 0);
+    cursor: pointer;
+}
+
+#submit-button:active {
+    background-color: green;
+}

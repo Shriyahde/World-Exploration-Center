@@ -1,0 +1,42 @@
+body {
+    color: black;
+    font-family: 'Montserrat';
+    
+    display: block!important;
+}
+
+#main-header {
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 4em;
+}
+
+#header-paragraph-div {
+    width: 60vw;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero-image {
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    opacity: 20%;
+}
+
+#membership-link {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    color: rgb(21, 23, 169);
+}
