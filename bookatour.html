@@ -2,10 +2,12 @@
 
 <html>
     <head>
+        <base href="/World-Exploration-Center" />
+
         <meta charset="utf-8">
         <title>W.E.C web | Book a tour</title>
 
-        <link rel="stylesheet" type="text/css" href="/World-Exploration-Center/styles/bookatour.css" />
+        <link rel="stylesheet" type="text/css" href="styles/bookatour.css" />
     </head>
     <body>
         <h1>Book a tour of the WEC today!</h1>
@@ -29,7 +31,10 @@
             <input type="submit" value="Book" id="submit-button" />
         </form>
 
-        <script src="/World-Exploration-Center/scripts/bookatour.js"></script>
-        <script src="/World-Exploration-Center/scripts/header.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore-compat.js"></script>
+
+        <script src="scripts/bookatour.js" type="module"></script>
+        <script src="scripts/header.js"></script>
     </body>
 </html>
