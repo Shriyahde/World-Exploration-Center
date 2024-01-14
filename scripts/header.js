@@ -1,4 +1,4 @@
-document.head.innerHTML += `<link rel="stylesheet" type="text/css" href="/styles/header.css" />`;
+document.head.innerHTML += `<link rel="stylesheet" type="text/css" href="styles/header.css" />`;
 
 document.body.innerHTML = `
 <div id="header">
