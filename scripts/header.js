@@ -4,7 +4,7 @@ document.body.innerHTML = `
 <div id="header">
     <a id="logo-link" href=""><h1 id="logo">WEC</h1></a>
 
-    <a class="header-link" href="bookatour.html">Book a tour</a>
+    <a class="header-link" href="https://forms.gle/j7YPvQXZJwfX7JPd9" target="_blank">Book a tour</a>
 </div>
 
 ${document.body.innerHTML}
