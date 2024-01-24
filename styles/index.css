@@ -40,3 +40,10 @@ li {
 
     color: rgb(21, 23, 169);
 }
+
+#tutoringclass-link {
+    color:blueviolet;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
